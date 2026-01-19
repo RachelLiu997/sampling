@@ -40,30 +40,50 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This study aims to examine how age shapes music taste, with a particular focus on how popular music is perceived across the different generations and the course of a life. 
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: Toronto residents over the age of 18. 
+
+Sampling frame: Toronto residents aged 18 and over who are reachable through convenience-based recruitment channels, including social media platforms, community organizations, and ads placed in local markets and who meet the study’s age-stratification criteria.
+
+Sampling units: Individual Toronto residents aged 18 and over who are recruited through these convenience channels into predefined age stratums.
+observational units: Participant survey responses reflecting their music tastes and perceptions of popular music at their current age and at (any) earlier stages of their lives.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. What is your age?
+2. What is your gender?
+    (a) Woman
+    (b) Man
+    (c) Non-binary
+    (d) Prefer not to answer
+3. Which of the following music genres do you currently listen to? (select all that apply)
+    (a) Classical
+    (b) Rock
+    (c) Pop
+    (d) Hip-hop/Rap
+    (e) Electronic/EDM
+    (f) Country
+    (g) Jazz/blues
+    (h) Others: ___
+4. Do you agree with this statement: Popular music was better when I was younger:
+    (a) Agree
+    (b) Neither disagree or agree
+    (c) Disagree
+5. Do you still listen to the music that were popular during your younger or teenage years?
+    (a) Yes, very often 
+    (b) Only sometimes
+    (c) Rarely or never 
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +91,38 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+Stratified sampling of households (stratas = geographical location within canada) without replacement. 
+
+2. Sample size = The target sample size was 20,000; however, only 16,149 was included. 
+
+3. Target population: Individuals in Canada over the age of 15, with the exclusion of residents of the Yukon, Northwest Territories, and Nunavut; and full-time residents of institutions between September 4th to December 28th, 2018. 
+
+4. Sampling frame: Households in Canada with a telephone number available to Statistics Canada. 
+
+5. Survey mode(s): A cross-sectional, national household survey using a mixed-mode data collection approach: Self-completed electronic questionnaire and Computer-assisted telephone interviews. 
+
+6. Timeline: Data collection occured between September 4 to December 28, 2018. 
+
+7. Response rate = 41.9%.
+
+8. Weights = The survey used a multi-step weighting procedure to produce representative person-level estimates. Initial household weights were calculated as the inverse of the adjusted probability of selection, accounting for households that could be reached through multiple telephone number groupings. Out-of-scope records were removed, and a three-stage non-response adjustment was applied using available  information. Household weights were converted to person weights by multiplying by the number of eligible household members aged 15 and older. Person weights were then adjusted for rejective sampling and adjusted to external population totals using iterative raking.
+
+9. Data processing: self-reported electronic surveys are automatically entered, whereas data collected via interview were computed by the interviewer. Completed records were encrypted and transmitted electronically for centralized processing. Coding followed Statistics Canada’s standard classification systems. Duplicate records, non-response cases, and out-of-scope records were identified and removed prior to further processing. Additional processing steps were applied to the public-use microdata file (PUMF) to protect confidentiality.
+
+10. Cleaning, imputation, etc: Three types of non-response were addressed: complete non-response, item non-response, and partial non-response. Records with complete non-response were removed and accounted for through survey weighting. Item non-response was handled through the use of “not stated” codes or imputation, while partial non-response was treated either as multiple item non-response or, in some cases, as complete non-response. Imputation was applied selectively to address missing or invalid data. Donor imputation methods were used for selected variables, particularly for giving and volunteering data.
+
+11. Sources of error: 
+(a) Coverage error: Exclusion of households without telephones which can result in either under- or over-coverage due to telephone linkage errors.
+(b) Non-response error: High non-response rate of 58.1%, unclear if there were specific factors surrounding non-response. 
+(c) Measurement error: Potential misreporting given that the survey is regarding altruistic deads. Participants may over report their resutls to appear more desirable.
+(d) Processing error: Different methods in processing data: electronic vs. by the interviewer may results in errors or differences in the reported data. 
+
+12. Limitations, known biases, etc
+(a) Rejective sampling bias risk: excluding interviews with a proportion of non-volunteers may increase variance and relies on correct modeling assumptions.
+(b) Self-report bias: Giving and volunteering behaviours are subject to recall and social desirability effects.
+
+13. Links: https://www150.statcan.gc.ca/n1/en/catalogue/45250011 , https://www150.statcan.gc.ca/n1/pub/45-25-0001/cat5/c33_2018.zip
 ```
 
 ## Rubric
